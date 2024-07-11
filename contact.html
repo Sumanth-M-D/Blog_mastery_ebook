@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>Free E-Book | Start Your Own Blog</title>
+  </head>
+
+  <body>
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/logo.png" class="" height="32px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 gap-3">
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="#details">Details</a>
+            </li>
+
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold btn btn-outline-light px-4 mx-4"
+                href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class="header">
+      <section class="pt-8 pb-5">
+        <div class="container">
+          <h1 class="text-light fw-bold">Contact Information</h1>
+        </div>
+      </section>
+      <svg
+        id="wave"
+        style="transform: rotate(0deg); transition: 0.3s"
+        viewBox="0 0 1440 120"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        class="translateBelow pb-0"
+      >
+        <path
+          style="transform: translate(0, 0px); opacity: 1"
+          fill="#f3f6f9"
+          d="M0,12L40,26C80,40,160,68,240,72C320,76,400,56,480,46C560,36,640,36,720,46C800,56,880,76,960,78C1040,80,1120,64,1200,48C1280,32,1360,16,1440,14C1520,12,1600,24,1680,32C1760,40,1840,44,1920,54C2000,64,2080,80,2160,76C2240,72,2320,48,2400,34C2480,20,2560,16,2640,30C2720,44,2800,76,2880,80C2960,84,3040,60,3120,48C3200,36,3280,36,3360,42C3440,48,3520,60,3600,54C3680,48,3760,24,3840,16C3920,8,4000,16,4080,26C4160,36,4240,48,4320,46C4400,44,4480,28,4560,36C4640,44,4720,76,4800,78C4880,80,4960,52,5040,38C5120,24,5200,24,5280,22C5360,20,5440,16,5520,28C5600,40,5680,68,5720,82L5760,96L5760,120L5720,120C5680,120,5600,120,5520,120C5440,120,5360,120,5280,120C5200,120,5120,120,5040,120C4960,120,4880,120,4800,120C4720,120,4640,120,4560,120C4480,120,4400,120,4320,120C4240,120,4160,120,4080,120C4000,120,3920,120,3840,120C3760,120,3680,120,3600,120C3520,120,3440,120,3360,120C3280,120,3200,120,3120,120C3040,120,2960,120,2880,120C2800,120,2720,120,2640,120C2560,120,2480,120,2400,120C2320,120,2240,120,2160,120C2080,120,2000,120,1920,120C1840,120,1760,120,1680,120C1600,120,1520,120,1440,120C1360,120,1280,120,1200,120C1120,120,1040,120,960,120C880,120,800,120,720,120C640,120,560,120,480,120C400,120,320,120,240,120C160,120,80,120,40,120L0,120Z"
+        ></path>
+      </svg>
+    </header>
+
+    <main>
+      <!-- FORM -->
+      <section class="bg-light py-5">
+        <div class="container">
+          <form
+            class="d-flex flex-column gap-3 px-5"
+            action="https://formspree.io/f/mvoeldng"
+            method="POST"
+          >
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="name"
+              name="name"
+              placeholder="Name"
+            />
+            <input
+              type="email"
+              class="form-control form-control-lg"
+              id="email"
+              name="email"
+              placeholder="Email"
+            />
+            <textarea
+              class="form-control form-control-lg"
+              id="message"
+              rows="8"
+              name="message"
+              placeholder="Message"
+            ></textarea>
+            <button
+              class="btn btn-primary btn-lg text-light py-2"
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- MAP -->
+      <section class="container my-5">
+        <div class="row">
+          <div class="col-10 offset-1">
+            <h3 class="mb-3">Our Location</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. A
+              perferendis velit nostrum rem placeat, mollitia, omnis corporis
+              aperiam provident odit molestias sed explicabo architecto soluta
+              quod deleniti sunt repellendus eaque?
+            </p>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.5303553091994!2d-0.14076024298621118!3d51.51210217963597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d502268421%3A0x6a7d62889992f993!2sRegent+St%2C+Soho%2C+London+W1B+5TH%2C+UK!5e0!3m2!1sen!2sro!4v1476174541049"
+                allowfullscreen
+                width="100%"
+                height="400px"
+                frameborder="1"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-light pt-4">
+      <div class="container">
+        <div class="row">
+          <div class="mx-auto text-center col-lg-5 my-5 py-3">
+            <h5 class="mb-4" style="line-height: 2">
+              Stay connected and join our vibrant community. For any inquiries
+              or assistance, feel free to reach out to us.
+            </h5>
+            <div class="d-flex justify-content-center gap-4 fs-2">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-twitter"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-linkedin"></i>
+              <i class="bi bi-pinterest"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="text-primary" />
+      <div class="container">
+        <div class="d-flex text-light gap-3 py-3">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="#details">Details</a>
+          <a class="nav-link" href="contact.html">Contact</a>
+          <p class="ms-auto">Copyright &copy; Blog Mastry 2024</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
